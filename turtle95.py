@@ -14,10 +14,16 @@ for j in range(0,1):
 for j in range(0,1):
     turtle.right(90)
     turtle.forward(90)
+for j in range(0,1):
+    turtle.right(90)
+for j in range(0,1):
+    turtle.forward(90)
+    turtle.back(90)
+for j in range(0,2):
+    turtle.right(90)    
 turtle.penup()
 for i in range(1):
     for j in range(0,1):
-        turtle.left(90)
         turtle.forward(90)
 turtle.pendown()
 for i in range(1):
@@ -30,3 +36,4 @@ for i in range(1):
     for j in range(0,1):
         turtle.forward(90)
 turtle.exitonclick()
+
